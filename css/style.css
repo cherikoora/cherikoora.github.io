@@ -44,6 +44,11 @@ body {
     text-decoration: none;
     margin-right: 12px;
 }
+.nav-link:hover{
+    color: rgb(54, 80, 15);
+    /* text-decoration: underline; */
+    text-shadow: #bdcabe83 1px 1px 1px;
+}
 .nav-links > li:first-child{
     margin-bottom: 5px;
 }
@@ -63,6 +68,7 @@ body {
 }
 
 .main-header {
+    text-shadow: rgba(5, 46, 0, 0.5) 2px 2px 2px;
     margin-left: 32px;
     color: rgb(3, 26, 0);
 }
@@ -91,6 +97,13 @@ body {
     color: #0c220e;
     font-size: 16px;
 }
+.post-data {
+    display: block;
+    text-align: right;
+    font-size: small;
+    margin-top: 4px;
+}
+
 
 .footer{
     background-color: #011b00;
